@@ -1,16 +1,18 @@
 .App {
+  
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  /* background-image: url("https://t4.ftcdn.net/jpg/04/85/47/27/240_F_485472761_dbWtxrJiJs29seQxmvdNbZpkWhjfz8MI.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  background-color: #636569;
 }
 
 .App-header {
@@ -21,18 +23,91 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: #636569;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: #636569;
+  background-color: beige;
+}
+
+
+ul {
+  list-style: none;
+  /* padding: 0; */
+}
+
+.li-item {
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  border: 1px solid rgb(7, 108, 57);
+  border-radius: 5px;
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.li-item:nth-child(even) {
+  background-color: #0000FF;
+  color: gray;
+}
+
+.li-item:nth-child(odd) {
+  background-color: #00FF00;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.li-item:hover {
+  background-color: 	#FFBF00;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: beige;
+  color: #636569;
+  border: 1px solid #ff5050;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff5050;
+  color: white;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+span:hover {
+  color: white;
+  font-size: large;
+  background-color: #fff;
 }
