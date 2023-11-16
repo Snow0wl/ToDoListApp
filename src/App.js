@@ -50,27 +50,4 @@ function App() {
 
 export default App;
 
-// function App() {
-//   const [inputValue, setInputValue] = useState("");
-//   return (
-//     <div className="App">
-//       <h1>ToDo List</h1>
-//       <div className="Row">
-//         <input type="text" value ={inputValue} placeholder="text goes here"></input>
-//         <ul id="list-container">
-//             <li>
-              
-//             </li>
-//         </ul>
-//       </div>
-//       <button onclick= {(e) => setInputValue(e.target.value)} id="addButton ">Add</button>
-      
-//     </div>
-    
-//   );
-// }
 
-
-
-
-// export default App;
